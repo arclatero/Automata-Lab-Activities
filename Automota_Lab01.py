@@ -26,7 +26,7 @@ dfa2 = {
     "states": {"q0","q1","q2","q3"},
     "alphabet": {"a","b"},
     "start": "q0",
-    "accept": {"q3"}, 
+    "accept": {"q0"q3"}, 
     "delta": {
         ("q0","a"):"q1", ("q1","a"):"q0",
         ("q2","a"):"q3", ("q3","a"):"q2",
